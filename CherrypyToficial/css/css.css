@@ -1,0 +1,39 @@
+  *{font-family: arial;}
+  
+  .button {
+  background-color: #B51630; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2.5px 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.button1 {
+   color: black; 
+  border: 2px solid #B51630;
+   background-color: #F5DEB3; 
+}
+
+.button1:hover {
+  background-color: #B51630;
+  color: #F5DEB3;
+
+}
+
+.button2:hover {
+  background-color: #B51630;
+  color: #F5DEB3;
+ text-align: center;
+}
+  
+#at{
+  border-color: #090; border: 2px;}
+}
+
+

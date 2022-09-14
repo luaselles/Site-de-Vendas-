@@ -1,0 +1,37 @@
+.cl{margin-top:20px;width:100%;}
+.sapo{width:100%;}
+.ganhocl{float: right; margin-top:50px; margin-right:80px; margin-bottom: 50px;}
+.textganhocl{float: left; margin-top:130px; margin-left:80px; font-size:30px; font-family: arial;letter-spacing: 2px;}
+.textganhocl1{float: left; margin-top:10px; margin-left:80px; font-size:15px; font-family: arial;letter-spacing: 1px;}
+.boacl{float: left; margin-top:5px; margin-left:80px; font-size:15px; font-family: arial;letter-spacing: 1px; margin-bottom:70px;}
+.textganhocl2{float: right; margin-top:100px; margin-right:200px; font-size:30px; font-family: arial;letter-spacing: 1px;}
+.textganhocl3{float: right; margin-top:15px; margin-right:220px; font-size:15px; font-family: arial;letter-spacing: 1px;}
+.butt {
+background-color: #fa6600;
+color: white;
+padding: 15px 32px;
+text-align: center;
+font-size: 16px;
+cursor: pointer;
+width: 150px;
+height: 50px;
+border-color:#fa6600;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+letter-spacing: 1px;
+font-size:15px;
+font-family:arial;
+}
+.butt2:hover {
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.cll{
+margin-top:20px;
+margin-bottom:100px;
+margin-left:80px;
+}
+.cll2{
+margin-top:20px;
+margin-bottom:100px;
+margin-left:55px;
+}

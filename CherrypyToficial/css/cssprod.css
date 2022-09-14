@@ -1,0 +1,17 @@
+#corpo{ width:100%; height:500px;}
+.fix{margin-right:20px; float:left;width:250px; height:380px;margin-right:20px; margin-top:60px; margin-left:40px;background-color:white; border: 4px solid; border-color:#3e3e3e; border-radius:2px;}
+.buttonDETALHES {
+background-color: #3e3e3e; border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;
+font-size: 16px;cursor: pointer;float: left;height:55px;width: 160px;margin-left: 45px;letter-spacing: 3px;margin-top:35px;}
+.buttonDETALHES:hover {
+background-color: #595959;
+}
+.classe{ float: right; margin-top: 5px; margin-right:5px;}
+.img{margin-top: 20px; margin-right:485px; margin-left:35px;}
+.classet{font-family:arial; text-align:center; margin-top:30px;}
+.classeti{font-family:arial;  margin-top:20px; margin-right:180px;margin-left:35px; font-size:45px;}
+.classete{font-family:arial;  margin-top:5px; margin-right:180px;margin-left:35px; font-size:17px;}
+.LAS{opacity:1; background-color:white;}
+.LAS:hover{background-color:#7a7a7a; }
+.i{margin-right:40px; margin-left:25px;}
+.classeta{font-family:arial; margin-right:180px;margin-left:35px; font-size:45px; margin-top:480px;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Skull Motors-Login</title>
+    <link rel="sortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/css/corretinhocss.css">
+    <style>
+        html,body
+            {
+                height: 100%;
+                min-height: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: white;
+                background-image: url("/imagens/fundi.jpg");
+            }
+        input {
+            width: 80%;
+            padding: 12px 17px;
+            margin: 0 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            }
+      .classetext{
+            font-family: arial;
+            text-align: justify;
+          }
+      .marg{margin-top: 40px;
+      margin-bottom:20px;}
+    .button {
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 10px 12px;
+            text-align: center;
+            font-size: 16px;
+            margin: 10px 20px;
+            opacity: 0.6;
+            transition: 0.3s;
+            display: inline-block;
+            cursor: pointer;
+            letter-spacing: 3px;
+          }
+          .button:hover {opacity: 1}
+    </style>
+</head>
+<body>
+        <section>
+            <div>
+               <div> <a href="home1.html"><img class="marg" src="/imagens/iconee.png" alt="icone"/></a></div>
+                <form>
+                <input type="text" id="nomeV" size="30" maxlength="30" required="required" placeholder="E-mail:">
+                <input type="password" id="senha" size="20" maxlength="10" required="required" placeholder="Senha:"><br> <br>
+                <button class="button">Login</button>
+                <a href="/cad/"><button class="button">Sign up</button></a>
+                </form>
+            </div>
+        </section>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Skull Motors-Sign up</title>
+    <link rel="sortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="corretinho2css.css">
+    <style>
+        .classet{font-family:arial; font-size: 15px; color: #d0d0d0;
+        text-align:justify; margin-top:50px;  margin-left: 95px; margin-bottom: -12px;
+        }
+        .classeta{
+            font-family:arial; font-size: 15px; color: #d0d0d0;
+            text-align:justify; margin-top:50px;  margin-left: 17px; margin-bottom: -12px;
+        }
+        input {
+            width: 80%;
+            padding: 12px 17px;
+            margin: 0 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            }
+      .classetext{
+            font-family: arial;
+            text-align: justify;
+          }
+      .marg{margin-top: 50px;
+      margin-bottom:5px;}
+    .button {
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 10px 12px;
+            text-align: center;
+            font-size: 16px;
+            opacity: 0.6;
+            transition: 0.3s;
+            display: inline-block;
+            cursor: pointer;
+            letter-spacing: 3px;
+            width:100px;
+            height:60px;
+          }
+          
+          .button:hover {opacity: 1}
+          .classe{
+            width: 300px;
+            height: 20px;
+            margin-left: 80px;
+            margin-bottom: 40px;
+          }
+          .m{ margin-left: 290px; margin-top: 30px;}
+          .l{ margin-left: 420px; margin-top: -71px;}
+          .clas{
+            width: 300px;
+            height: 20px;
+            margin-left: 420px;
+            margin-top: -268px;
+          }
+          .clas2{
+            width: 300px;
+            height: 20px;
+            margin-left: 420px;
+            margin-top: -48px;
+          }
+          .diclasse{font-family: arial; font-size: 15px; color: #d0d0d0;
+            text-align: justify; margin-top: 10px;  margin-left: 430px; margin-bottom: 12px;  width: 300px;
+            height: 20px;}
+            .nome{
+                font-family: arial; font-size: 15px; color: #d0d0d0;
+            text-align: justify; margin-top: 60px;  margin-left: 435px; margin-bottom: 0px; width: 300px;
+            height: 20px;
+            }
+            
+    </style>
+</head>
+<body>
+        <section>
+            <div>
+                 <div><a href="home1.html"><img class="marg" src="iconee.png" alt="icone"/></a></div>
+                <form>
+                    <div class="classet"><label for="emai" >Nome:</label></div>
+                    <div class="classe">
+                        <input type="text" id="emai" size="30" maxlength="30" required="required" placeholder="Digite seu nome:">
+                    </div>
+                    <div class="classet"><label for="senha" >Senha:</label></div>
+                <div class="classe">
+                    <input type="password" id="senha" size="20" maxlength="10" required="required" placeholder="Senha:">
+                </div>
+                <div class="classet"><label for="Fone" >Telefone:</label></div>
+                <div class="classe"> 
+                    <input type="tel" id="Fone" size="40" pattern="\(d{2}\)\s\d{5}\-\d{4}"
+                   title="(99) 99999-9999" placeholder="(99) 99999-9999"
+                </div>
+               
+                    <div class="clas">
+                        <div class="classeta"><label for="txtNome" >E-mail:</label></div>
+                        <input type="text" id="txtNome" size="40" maxlength="30" required="required" placeholder="E-mail:">
+                    </div>
+                    <br>
+                     <div class="clas2">
+                        <div class="classeta"><label for="nomeV">RG: </label></div>
+                        <input type="text" id="nomeV" size="20" maxlength="12" required="required" placeholder="RG:">
+                    </div>
+                        <div class="nome"><label for="tData">Data de Nascimento:</label></div>
+                        <div class="diclasse"><input type="date" id="data" size="20" required="required" /> </div>
+                    <br>
+                <div><button class="button m">Login</button></div>
+                <a href="tela_cadastro.html"><div class="l"><button class="button">Sign up</button></div></a>
+                
+                </form>
+            </div>
+        </section>
+
+</body>
+</html>
